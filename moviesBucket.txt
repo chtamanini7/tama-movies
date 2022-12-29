@@ -1,85 +1,64 @@
 Buscando a Nemo
 Los Simpsons
-La Naranja Mecanica
+La Naranja Mecánica
 La Terminal
-Toy Story
-ALF
 Interstellar
-Los Increibles
-La Vuelta al Mundo en 80 dias
-El Telefono Negro
+Los increibles
+El telefono negro
 El Conjuro
 101 Dalmatas
-El Diablo Viste a la Moda
-Mision Imposible
+El diablo viste a la moda
+Misión Imposible
 Gladiador
-La tormenta perfecta
-Jurassic Park
 El Naufrago
 Forest Gump
-Harry Potter
+Harry potter
 El Grinch
-El Planeta de los Simios
-Shrek
-El Señor de los Anillos
 Memento
-La momia regresa
 Abracadabra
 Intensamente
 Pinocho
 Aladdin
 Guardianes de la Galaxia
-Alicia en el Pais de las Maravillas
-El Principe de Persia
+El principe de Persia
 Narnia
-El Aprendiz de Brujo
+El Aprendiz de brujo
 Enredados
 Tron
-Marte necesita Mamás
+Marte necesita mamás
 Piratas del Caribe
 Cars
 Los Muppets
-La Extraña vida de Timothy Green
-Ralph el Demoledor
-Monster inc
+La extraña vida de Timothy Green
+Ralph el demoledor
 El llanero solitario
 Frozen
-Tierra de Osos
-La Cenicienta
-El Reino de los Monos
+El reino de los monos
 Zootopia
-Horas Contadas
-El libro de la Selva
+Horas contadas
 Mi gran amigo Gigante
-La bella y la bestia
-El Cascanueces y los Cuatro Reinos
-Dumbo
-El Rey Leon
+El cascanueces y los cuatro Reinos
 La Dama y el Vagabundo
-Las Aventuras de Timmy Fracaso
-La era de Hielo
-Mas barato por Docena
-El diario de Greg
-Una noche en el Museo
-Peter Planeta
+Las aventuras de Timmy Fracaso
+EL diario de Greg
+Una noche en el museo
+Peter planeta
 Extremadamente Goofy
-La Sirenita
-Duelo de Titanes
+La sirenita
+Duelo de titanes
 El diario de la Princesa
-El club de los Villanos
-Lilo & Stich
+El club de los VIllanos
 El jorobado de Notre Dame
 Tarzan
-Vacas Vaqueras
+Vacas vaqueras
 Niñera a prueba de balas
 Herbie a toda marcha
 El juego que hizo historia
 Camino a la gloria
-Un Papá con Pocas Pulgas
+Un papá con pocas pulgas
 La historia de Pixar
 Una Chihuahua de Beverly Hills
-La Montaña Embrujada
-Más allá de los Sueños
+Más allá de los sueños
 La princesa y el sapo
 Enamorarse
 El ciudadano
@@ -123,7 +102,6 @@ El Hija del general
 Mi novia es una extraterrestre
 Analízame
 Propuesta indecente
-Buscando a Nemo
 Rápido y furioso
 El exorcista
 Una historia diferente
@@ -134,7 +112,7 @@ El fantasma de la ópera
 El diario de Bridget Jones
 El joven manos de tijera
 Stuart little
-Armado hasta los dientes 
+Armado hasta los dientes
 Matrix recargado
 Mi papá es un ídolo
 La pianista
@@ -175,7 +153,7 @@ Pegado a TI
 Prueba de vida
 Al FILO de la muerte
 El implacable
-Bandana 
+Bandana
 Puerta por puerta
 El padrino
 Viviendo una mentira
@@ -258,7 +236,6 @@ Aquellos perros sucios
 A cara descubierta
 Loco por Mary
 Juana la loca
-Gladiador
 Atracción fatal
 Triple X(XXX)
 Juegos en la nieve
@@ -293,7 +270,6 @@ Máxima velocidad
 Perdidos en el espacio
 Amor ciego
 El gran pez
-Más allá de los sueños
 El patriota
 Inteligencia artificial
 La estrella de Navidad
@@ -339,7 +315,7 @@ Colores primarios
 Todo por amor
 Monster inc
 Punto límite
-Texas Rangers 
+Texas Rangers
 4 Mujeres
 La lupa
 Fin de semana salvaje
@@ -616,7 +592,7 @@ La máscara
 El pianista
 El último gran héroe
 Hombres de honor
-Terminator 
+Terminator
 Doña Flor y sus 2 maridos
 Un lugar en el mundo
 Los osos revoltosos
@@ -776,7 +752,6 @@ Línea de fuego
 Asesinen al payaso
 El día de la Luna negra
 El último emperador
-Volver al futuro
 Balas mortales
 Cumpleaños sangriento
 Un pecado, una ilusión
@@ -801,7 +776,6 @@ Naranja mecánica
 Buenos días Vietnam
 Could Mountain
 El mariachi
-El juego
 Sé lo que hiciste el verano pasado
 Escuela de Rock
 Filadelfia
@@ -855,7 +829,6 @@ El encuentro
 Noche y día
 Alta sociedad
 2 veces en la vida
-Rambo
 El mundo en llamas
 Viaje insólito
 Por fin me la quite de encima
@@ -972,4 +945,364 @@ El año del conejo
 Carrusel de dibujos animados
 Cacería
 Un rifle para la venganza
-----
+Camas blandas, batallas duras
+Coraje
+Hércules
+El búfalo blanco
+El oráculo
+El secreto de mi éxito
+Cómo padre e hijo
+Los tres mosqueteros
+Almas perdidas
+Sin temor al demonio
+Se me subió la mostaza
+Alma negra
+Vendetta
+Testing en peligro
+La Niebla
+Los hombres las prefieren rubias
+Cenizas en el paraíso
+La leyenda del jinete sin cabeza
+En busca del destino
+El planeta de los simios
+Campamento de verano
+Ricas y famosas
+El paraíso viviente
+A quemaropa
+Masacre diabólica
+La carcel más loca del mundo
+Crónicas de un niño solo
+La noche de las narices frías
+Sudor frío
+El bosque del terror
+Spaghetti a la medianoche
+Señora de nadie
+¿En qué piensas?
+Operación diamantes
+El Gran duelo
+Los locos Adams
+La familia de mi novia
+Godzilla
+Juegos sexuales
+Planeta rojo
+Los pilotos más locos del mundo
+Un amor de verdad
+El pequeño guerrero
+El pasaje
+El regalo
+La mujer sin rostro
+Tras el corazón verde
+El río
+El hombre lobo
+Salvaste si puedes
+Entre nosotros
+El hombre de la montaña
+Target
+La muerte está al teléfono
+Atracción peculiar
+Telefon
+La guerra de los ninjas
+Puzzle rompecabezas
+Fuerza de venganza
+Recuerdos del verano
+Lo que el viento se llevó
+Bugs Bunny
+El triturador
+El perro del infierno
+Que vida de perros
+El hombre que no vio el mañana
+La gorra mágica
+El botín de los valientes
+Obsesión fatal
+De hombre a hombre
+Las barras bravas
+Con el último Aliento
+Lunes tormentosos
+Diabólico
+Mi novia Polly
+Pearl Harbor
+Volcano
+Duro de matar
+Waterworld
+Una Eva y dos Adanes
+Solos en la madrugada
+Los aventureros del fin del mundo
+Alerta roja
+Dios los cría y Ringo los mata
+Chocolate y Bananas
+Castillo de Hielo
+La pandilla del Barrio
+Holocausto
+Noche de horror
+El casorio
+Bajo el volcán
+Los lobos no lloran
+Salvajes Bastardos
+Objeto volador identificado
+Todos juntos a la cama
+Los dragoncitos
+La espada de los bárbaros
+En la ruta de los asesinos
+Pánico en la ciudad
+Una prueba de amor
+Quebracho
+Centinelas del espacio
+En Compañía peligrosa
+Enemigo mio
+Crimen por muerte
+la lección de piano
+Escape al futuro
+Buscado vivo o muerto
+Regalo diabólico
+Luna de miel embrujada
+Sin querer queriendo
+El cuarto deseo
+Canibal
+Pandilleros en apuros
+Confesiones de un hombre casado
+El principito
+Las largas noches de la gestapo
+Más allá de las estrellas
+Mi dulce pueblito
+Perros de la noche
+Venganza a cualquier precio
+Los Buitres
+Terrorvision
+Ropa limpia, negocios sucios
+Zeta
+El faro del fin del mundo
+Asalto con arma mortal
+La hija del minero
+Las locuras del ET
+El día después
+Pippi medias largas
+El enigma de las arenas
+La secta
+Los fugitivos
+La frontera
+El desafío
+Un detective suelto en Hollywood
+El regreso de los muertos vivos
+Locademia de combate
+En un lugar del corazón
+Ivanhoe
+El cuarto protocolo
+Los vivos y los muertos
+Ace Ventura
+Ana y el Rey
+Alicia en el país de las maravillas
+Comando
+Apollo XIII
+Las puertitas del señor López
+El don del Coraje
+Ali Baba y los cuarenta ladrones
+La clínica loca
+Asesino
+Le enfermera de noche
+Nido de ratas
+Popeye
+Ayude a su comisario
+Asesinato por engaño
+Creando al Sr, Perfecto
+Una mujer descasada
+Trapito
+La sospecha
+Detrás del espejo
+28 días
+Lluvia púrpura
+Límite vertical
+Los siete magníficos
+Todas las azafatas van al cielo
+Shakespeare apasionado
+El Rey León
+La roca
+Chucky el muñeco maldito
+El manosanta
+Los gritos del silencio
+El cristal encantado
+Ciudad sin ley
+Juego limpio
+Bello como un arcángel
+Chicas que trabajan
+El silencio del norte
+Misión Fatal
+Muerte en invierno
+Mis dos mujeres
+EL pasajero de la lluvia
+Los tigres no lloran
+Persecución mortal
+Eran diez indiecitos
+Fiebre de una noche de verano
+La noche de los lápices
+Noche de New York
+La tiendita del horror
+Los tres chiflados
+Sobredosis
+2000 Leguas de viaje submarino
+Trampa mortal
+Misión salvar la tierra
+Futbol, amor y toros
+Los peces rojos
+Cristal oscuro
+El nadador
+Rompiendo las reglas
+Otra vez adiós
+La tierra del tigre
+Corrupción en el piso 19
+Los Chacales de la luna
+El negocio de las armas
+Pobre mariposa
+La ultima pelea
+Ruta suicida
+Carambola
+Como eliminar a su jefe
+Yo la peor de todas
+Operación dragón
+Fuga hacia la libertad
+El exterminador
+Cambio de esposas
+De eso no se habla
+Mafalda
+La orden final
+Furia
+Mi gran casamiento griego
+Fuga de alcatraz
+La pasión de cristo
+Los otros
+En la oscuridad
+7 días y 7 noches
+Una mente brillante
+El protector
+La estafa maestra
+Moulin Rouge
+El inspector gadget
+Patch Adams
+Cocktail
+Vanilla SKY
+La vida es bella
+Viven
+La red
+La llamada
+Anaconda
+El agujero en la pared
+La pantera rosa
+Acto de matar
+La noche del demonio
+Cuando Harry encontró a Sally
+Los puentes de Madison
+Mentiras verdaderas
+Cabo de miedo
+El mensajero del futuro
+La iniciación
+Un hombre llamado viernes
+Las travesuras de una bruja
+EL gran robo de la rivera
+El amo del juego
+Demasiado sol
+Ladrones de bicicletas
+siete mujeres
+El hombre de la mascara de acero
+Cantando bajo la lluvia
+Me sobra un marido
+Gente como uno
+Los diamantes son eternos
+Dos Rostros para el crimen
+Trágica luna de miel
+Mejor imposible
+Monster
+Jurassic Park
+Atrapame si puedes
+El quinto elemento
+El padre de la novia
+Un dia de furia
+Pecados capitales
+Freddie vs Jeison
+El rey de la pulseada
+La muerte de un viajante
+He-man
+Juntos contra la mafia
+Chorros
+Adios al amigo
+Quo Vadis
+Laguna
+El valle de la muerte
+La noche que hicimos el hurto
+Fuego y lluvia
+Zorro
+Fuga nocturna
+Dios Perdona, yo no
+Días de Radio
+Las sandalias del pescador
+Ladrona de estrellas
+Furia silenciosa
+La marca de la pantera
+Vacaciones separadas
+El precio de ser hombre
+Secreto de la pirámide
+El ultimo dragón
+Viva la muerte… Tuya
+El profesor Punk
+Nada en común
+Conquista sangrienta
+El solitario
+Viaje a las Galaxias
+Dinero Facil
+Soñar, Soñar
+La vuelta al mundo en 80 dias
+El infierno está en nosotros
+Vamos a matar compañeros
+Locos del aire
+EL Show de Truman
+El increible Hulk
+Bajos instintos
+La celda
+Todopoderoso
+El paciente inglés
+Tierra de osos
+La máscara del Zorro
+Entrevista con el vampiro
+La cama
+EL diablo en el cuerpo
+ALF
+Ciudadano bajo vigilancia
+El amor de un idolo
+El genio
+Los girasoles de rusia
+El príncipe y el mendigo
+Sesiones privadas
+Condenada sin salida
+Don puños contra rio
+Darse cuenta
+Superman
+Proceso penal
+Terror en el menú
+Al diablo con este trabajo
+Y la nave va…
+Colmillo blanco
+Patton
+El hombre marcado
+Los fierecillos se divierten
+La peste
+Retroceder nunca, rendirse jamas
+La hiena
+36 horas de infierno
+plata dulce
+Perdidos
+Poder y venganza
+Martes 13
+Una chica al rojo vivo
+Moscú no cree en lágrimas
+Oro fino
+La hora de matar
+El tirador
+Chicle caliente
+El asalto
+El molinete
+Sin salida
+Cuentos Asombrosos
+Un mucamo en mi casa
+Zoo
+El pájaro loco y sus amigos
+Venganza
+El alquimista
+---

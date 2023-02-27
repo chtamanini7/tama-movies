@@ -1,32 +1,29 @@
-import React, { useEffect } from "react";
-import { useState } from "react";
-import {addDoc, collection, getDocs} from "firebase/firestore";
-import {db} from "../utils/firebase";
+import React, { useState } from "react";
+import { stackMovies } from "../utils/dataMovies";
 
-export default function ListMovies() {
+export default function ListMovies(props) {
+    const [number, setNumber] = useState();
+    //const [SelectedMovie, setSelectedMovie] = useState();
 
-    const [movies, setMovies] = useState([])
+    function randomNumberInRange(min, max) {
 
-    useEffect(() => {
-        getMovies();
-    }, [])
-    
-
-    function getMovies(){
-        const movieCollectionRef = collection(db, 'movies')
-        getDocs(movieCollectionRef)
-            .then(response => {
-                console.log(response);
-            })
-            .catch(error => console.log(error.message))
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+  
     }
+  
+  
+    const numberHandleClick = () => {
+        setNumber(randomNumberInRange(0,stackMovies.length-1));
+    };
+    //localStorage.setItem("key", stackMovies[number]);
+    //let selectedMovie = localStorage.getItem("key");
 
     return (
-        <div>
+        <div className="App">
+            <button onClick={props.toggleBool} className="btnMoviesToColors">Color Selector</button>
             <h2>Choose your next movie</h2>
-            <h3>Movie Name</h3>
-            <button type="button" name="myButton">Random</button>
+            <h3>{stackMovies[number]}</h3>
+            <button onClick={numberHandleClick} type="button" className="myButton">Random</button>
         </div>
-        
     )
 }

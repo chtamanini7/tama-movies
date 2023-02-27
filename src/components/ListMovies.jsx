@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { stackMovies } from "../utils/dataMovies";
 
-export default function ListMovies(props) {
+export default function ListMovies() {
     const [number, setNumber] = useState();
     //const [SelectedMovie, setSelectedMovie] = useState();
 
@@ -20,7 +20,7 @@ export default function ListMovies(props) {
 
     return (
         <div className="App">
-            <button onClick={props.toggleBool} className="btnMoviesToColors">Color Selector</button>
+            <button className="btnMoviesToColors">Color Selector</button>
             <h2>Choose your next movie</h2>
             <h3>{stackMovies[number]}</h3>
             <button onClick={numberHandleClick} type="button" className="myButton">Random</button>

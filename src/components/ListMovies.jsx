@@ -20,7 +20,6 @@ export default function ListMovies() {
 
     return (
         <div className="App">
-            <button className="btnMoviesToColors">Color Selector</button>
             <h2>Choose your next movie</h2>
             <h3>{stackMovies[number]}</h3>
             <button onClick={numberHandleClick} type="button" className="myButton">Random</button>

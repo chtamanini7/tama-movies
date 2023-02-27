@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import './App.css';
+import Generala from './components/Generala';
 import ListMovies from './components/ListMovies';
 import RandomColors from './components/RandomColors';
+import TrucoCounter from './components/TrucoCounter';
 
 function App() {
 const [myBool, setmyBool] = useState(1);
@@ -11,9 +13,9 @@ function Asd() {
     case 2:
       return(<RandomColors />)
     case 3:
-      return(<RandomColors />)
+      return(<Generala />)
     case 4:
-      return(<RandomColors />)
+      return(<TrucoCounter />)
     default:
       return(<ListMovies />)
   }

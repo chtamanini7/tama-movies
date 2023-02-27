@@ -32,7 +32,6 @@ export default function RandomColors() {
 
   return (
     <div className="App">
-      <button className="btnColorsToMovies">Movie Selector</button>
       <h2>Choose your color</h2>
       <h3 className={textColor}>{color}</h3>
       <button onClick={colorHandleClick} type="button" className="myButton">Random</button>

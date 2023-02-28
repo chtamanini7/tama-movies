@@ -25,18 +25,18 @@ export default function ListMovies() {
             <h2>Choose your next movie</h2>
             <h3>{stackMovies[number]}</h3>
             <button onClick={numberHandleClick} type="button" className="myButton">Random</button>
-            <div className="counterFather">
-                <div className="movie-counter">
+            <div className="movie-counter-father">
+                <div className="movie-counter-item">
                     <h5>Team 1</h5>
                     <h4>{teamOneScore}</h4>
-                    <button onClick={() => setTeamOneScore(teamOneScore + 1)}>+</button>
-                    <button onClick={() => setTeamOneScore(teamOneScore - 1)}>-</button>
+                    <button className="myButton" onClick={() => setTeamOneScore(teamOneScore + 1)}>+</button>
+                    <button className="myButton" onClick={() => setTeamOneScore(teamOneScore - 1)}>-</button>
                 </div>
-                <div className="movie-counter">
+                <div className="movie-counter-item">
                     <h5>Team 2</h5>
                     <h4>{teamTwoScore}</h4>
-                    <button onClick={() => setTeamTwoScore(teamTwoScore + 1)}>+</button>
-                    <button onClick={() => setTeamTwoScore(teamTwoScore - 1)}>-</button>
+                    <button className="myButton" onClick={() => setTeamTwoScore(teamTwoScore + 1)}>+</button>
+                    <button className="myButton" onClick={() => setTeamTwoScore(teamTwoScore - 1)}>-</button>
                 </div>
             </div>
         </div>

@@ -6,10 +6,10 @@ import RandomColors from './components/RandomColors';
 import TrucoCounter from './components/TrucoCounter';
 
 function App() {
-const [myBool, setmyBool] = useState(1);
+const [myPage, setmyPage] = useState(1);
 
 function Selector() {
-  switch(myBool){
+  switch(myPage){
     case 2:
       return(<RandomColors />)
     case 3:
@@ -24,10 +24,10 @@ function Selector() {
   return (
     <div>
       <div className="App-header">
-        <button onClick={() => setmyBool(1)} className="btnHeader">Movies</button>
-        <button onClick={() => setmyBool(2)} className="btnHeader">Colors</button>
-        <button onClick={() => setmyBool(3)} className="btnHeader">Generala</button>
-        <button onClick={() => setmyBool(4)} className="btnHeader">Truco</button>
+        <button onClick={() => setmyPage(1)} className="btnHeader">Movies</button>
+        <button onClick={() => setmyPage(2)} className="btnHeader">Colors</button>
+        <button onClick={() => setmyPage(3)} className="btnHeader">Generala</button>
+        <button onClick={() => setmyPage(4)} className="btnHeader">Truco</button>
       </div>
       <div className="App-mid">
         <Selector />

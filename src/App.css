@@ -57,37 +57,8 @@
   background-color: aliceblue;
   color: #c46c08;
 }
-
-.btnMoviesToColors {
-  color: #ffffff;
-  background-color: #c46c08;
-  font-size: 19px;
-  border: 2px solid #ffffff;
-  border-radius: 0px 50px 50px 0px;
-  padding: 15px 50px;
-  cursor: pointer
-}
-
-.btnMoviesToColors:hover {
-  color: #ffffff;
-  background-color: #282c34;
-  border: 2px solid #c46c08;
-}
-
-.btnColorsToMovies {
-  color: #ffffff;
-  background-color: #c46c08;
-  font-size: 19px;
-  border: 2px solid #ffffff;
-  border-radius: 50px 0px 0px 50px;
-  padding: 15px 50px;
-  cursor: pointer
-}
-
-.btnColorsToMovies:hover {
-  color: #ffffff;
-  background-color: #282c34;
-  border: 2px solid #c46c08;
+.btnHeader:active{
+  background-color: aliceblue;
 }
 
 .myButton {
@@ -97,7 +68,8 @@
   border: 2px solid #c46c08;
   border-radius: 11px;
   padding: 15px 50px;
-  cursor: pointer
+  cursor: pointer;
+  margin: 1px;
 }
 .myButton:hover {
   color: #c46c08;
@@ -108,12 +80,12 @@
   border: 1px solid black;
 }
 
-.counterFather{
+.movie-counter-father{
   display: flex;
   flex-wrap: wrap;
   border: 1px solid lightblue;
 }
-.movie-counter{
+.movie-counter-item{
   border: 1px solid lightblue;
   flex: 1;
 }

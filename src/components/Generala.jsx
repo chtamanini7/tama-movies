@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Generala extends Component {
   render() {
     return (
-      <div className="App">Generala</div>
+      <div className="App">Generala - coming soon.</div>
     )
   }
 }

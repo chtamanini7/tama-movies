@@ -8,7 +8,7 @@ import TrucoCounter from './components/TrucoCounter';
 function App() {
 const [myBool, setmyBool] = useState(1);
 
-function Asd() {
+function Selector() {
   switch(myBool){
     case 2:
       return(<RandomColors />)
@@ -30,7 +30,7 @@ function Asd() {
         <button onClick={() => setmyBool(4)} className="btnHeader">Truco</button>
       </div>
       <div className="App-mid">
-        <Asd />
+        <Selector />
       </div>
     </div>
   );

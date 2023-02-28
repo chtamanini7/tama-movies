@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  border: 1px solid lightblue;
 }
 
 .pinkText {
@@ -105,4 +106,14 @@
 
 .movie-title {
   border: 1px solid black;
+}
+
+.counterFather{
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid lightblue;
+}
+.movie-counter{
+  border: 1px solid lightblue;
+  flex: 1;
 }

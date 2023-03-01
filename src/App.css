@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  border: 1px solid lightblue;
 }
 
 .pinkText {
@@ -83,9 +82,9 @@
 .movie-counter-father{
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid lightblue;
+  
 }
 .movie-counter-item{
-  border: 1px solid lightblue;
+  
   flex: 1;
 }

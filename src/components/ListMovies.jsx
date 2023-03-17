@@ -12,7 +12,22 @@ export default function ListMovies() {
         return Math.floor(Math.random() * (max - min + 1)) + min;
   
     }
-  
+    
+    const scoreModifier = (team, flag) => {
+        if(flag){
+            if(team === 1){
+                setTeamOneScore(teamOneScore + 1);
+            }else{
+                setTeamTwoScore(teamTwoScore + 1);
+            }
+        }else{
+            if(team === 2 && teamTwoScore > 0){
+                setTeamTwoScore(teamTwoScore - 1);
+            }else if(team === 1 && teamOneScore > 0){
+                setTeamOneScore(teamOneScore - 1);
+            }
+        }
+    }
   
     const numberHandleClick = () => {
         setNumber(randomNumberInRange(0,stackMovies.length-1));
@@ -29,14 +44,14 @@ export default function ListMovies() {
                 <div className="movie-counter-item">
                     <h5>Team 1</h5>
                     <h4>{teamOneScore}</h4>
-                    <button className="myButton" onClick={() => setTeamOneScore(teamOneScore + 1)}>+</button>
-                    <button className="myButton" onClick={() => setTeamOneScore(teamOneScore - 1)}>-</button>
+                    <button className="myButton" onClick={() => scoreModifier(1,true)}>+</button>
+                    <button className="myButton" onClick={() => scoreModifier(1,false)}>-</button>
                 </div>
                 <div className="movie-counter-item">
                     <h5>Team 2</h5>
                     <h4>{teamTwoScore}</h4>
-                    <button className="myButton" onClick={() => setTeamTwoScore(teamTwoScore + 1)}>+</button>
-                    <button className="myButton" onClick={() => setTeamTwoScore(teamTwoScore - 1)}>-</button>
+                    <button className="myButton" onClick={() => scoreModifier(2,true)}>+</button>
+                    <button className="myButton" onClick={() => scoreModifier(2,false)}>-</button>
                 </div>
             </div>
         </div>

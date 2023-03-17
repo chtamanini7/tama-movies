@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 
-export default function RandomColors(props) {
+export default function RandomColors() {
   const [color, setColor] = useState("ROSA");
   const [textColor, setTextColor] = useState('pinkText');
 
@@ -32,7 +32,6 @@ export default function RandomColors(props) {
 
   return (
     <div className="App">
-      <button onClick={props.toggleBool} className="btnColorsToMovies">Movie Selector</button>
       <h2>Choose your color</h2>
       <h3 className={textColor}>{color}</h3>
       <button onClick={colorHandleClick} type="button" className="myButton">Random</button>

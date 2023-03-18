@@ -105,6 +105,21 @@
   font-family: sans-serif;
 }
 
+.row-static {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  background-color: #333;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+  min-width: 15vh;
+  user-select: none;
+}
+
 .row {
   flex: 1;
   display: flex;
@@ -117,6 +132,7 @@
   border-radius: 0.5rem;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
   min-width: 15vh;
+  user-select: none;
 }
 
 .row:active{

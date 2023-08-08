@@ -1,39 +1,39 @@
 import React from 'react'
-import { useState } from 'react';
+import {  useContext } from 'react';
+import { AppContext } from '../context/AppContext';  
 
 export default function RandomColors() {
-  const [color, setColor] = useState("ROSA");
-  const [textColor, setTextColor] = useState('pinkText');
+  const {setContextColor, contextColor, setTextContextColor, textContextColor} = useContext(AppContext);
 
   function randomColorInRange(min, max) {
     let num = Math.floor(Math.random() * (max - min + 1)) + min;
     switch(num){
       case 1:
-        setTextColor("pinkText");
+        setTextContextColor("pinkText");
         return "ROSA";
       case 2:
-        setTextColor('yellowText');
+        setTextContextColor('yellowText');
         return "AMARILLO";
       case 3:
-        setTextColor('greenText');
+        setTextContextColor('greenText');
         return "VERDE";
       case 4:
-        setTextColor('orangeText');
+        setTextContextColor('orangeText');
         return "NARANJA";
       default:
-        setTextColor('lightblueText');
+        setTextContextColor('lightblueText');
         return "CELESTE";
     }
   }
   
   const colorHandleClick = () => {
-    setColor(randomColorInRange(1,5));
+    setContextColor(randomColorInRange(1,5));
   };
 
   return (
     <div className="App">
       <h2>Choose your color</h2>
-      <h3 className={textColor}>{color}</h3>
+      <h3 className={textContextColor}>{contextColor}</h3>
       <button onClick={colorHandleClick} type="button" className="myButton">Random</button>
     </div>
   )

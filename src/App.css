@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  max-width: 100%;
 }
 
 .pinkText {
@@ -25,6 +26,7 @@
 .App-mid {
   background-color: #282c34;
   min-height: 100vh;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,6 +39,7 @@
   display: flex;
   flex-direction: row;
   max-height: 8vh;
+  max-width: 100%;
   background-color: #282c34;
 }
 
@@ -103,6 +106,7 @@
   justify-content: center;
   align-items: center;
   font-family: sans-serif;
+  max-width: 100vh;
 }
 
 .row-static {
@@ -120,7 +124,7 @@
   user-select: none;
 }
 
-.row {
+.row-static-dynamic{
   flex: 1;
   display: flex;
   justify-content: center;
@@ -135,8 +139,23 @@
   user-select: none;
 }
 
-.row:active{
+.row-static-dynamic:active, .row:active{
   background-color: #c46c08;
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  background-color: #333;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+  min-width: 15vh;
+  user-select: none;
 }
 
 .input-generala-name{

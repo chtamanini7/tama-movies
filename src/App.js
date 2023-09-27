@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import './App.css';
 import GeneralaHome from './components/GeneralaHome';
 import ListMovies from './components/ListMovies';
@@ -9,33 +10,35 @@ import AppContextProvider from './context/AppContext';
 function App() {
 const [myPage, setmyPage] = useState(1);
 
-function Selector() {
-  switch(myPage){
-    case 2:
-      return(<RandomColors />)
-    case 3:
-      return(<GeneralaHome />)
-    case 4:
-      return(<TrucoCounter />)
-    default:
-      return(<ListMovies />)
-  }
-}
-
   return (
-    <AppContextProvider>
-      <div>
-        <div className="App-header">
-          <button onClick={() => setmyPage(1)} className="btnHeader">Movies</button>
-          <button onClick={() => setmyPage(2)} className="btnHeader">Colors</button>
-          <button onClick={() => setmyPage(3)} className="btnHeader">Generala</button>
-          <button onClick={() => setmyPage(4)} className="btnHeader">Truco</button>
+    <BrowserRouter>
+      <AppContextProvider>
+        <div>
+          <div className="App-header">
+            <Link to={'/movies'}>
+              <button className="btnHeader">Movies</button>
+            </Link>
+            <Link to={'/colors'}>
+              <button className="btnHeader">Colors</button>
+            </Link>
+            <Link to={'/generala'}>
+              <button className="btnHeader">Generala</button>
+            </Link>
+            <Link to={'/truco'}>
+              <button className="btnHeader">Truco</button>
+            </Link>
+          </div>
+          <div className="App-mid">
+            <Routes>
+              <Route path='/movies' element={<ListMovies />} />
+              <Route path='/colors' element={<RandomColors />} />
+              <Route path='/generala' element={<GeneralaHome />} />
+              <Route path='/truco' element={<TrucoCounter />} />
+            </Routes>
+          </div>
         </div>
-        <div className="App-mid">
-          <Selector />
-        </div>
-      </div>
-    </AppContextProvider>
+      </AppContextProvider>
+    </BrowserRouter>
   );
 }
 

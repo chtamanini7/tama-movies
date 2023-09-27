@@ -99,6 +99,14 @@
   font-family: sans-serif;
 }
 
+.container-main-truco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -107,6 +115,53 @@
   align-items: center;
   font-family: sans-serif;
   max-width: 100vh;
+}
+
+.container-truco {
+  display: flex;
+  flex-direction: row;
+  max-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  max-width: 50vh;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.container-truco-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  max-height: 10vh;
+}
+
+.counter-truco{
+  z-index: 0;
+  position: absolute;
+}
+
+.plus-truco{
+  z-index: -1;
+  background-color: transparent;
+}
+
+.minus-truco{
+  z-index: -1;
+  background-color: transparent;
+}
+
+.plus-truco:active{
+  background-color: red;
+  opacity: 9%;
+}
+
+.minus-truco:active{
+  background-color: greenyellow;
+  opacity: 9%;
 }
 
 .row-static {
